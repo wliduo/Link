@@ -59,40 +59,12 @@
       </div>
 
       <div class="item">
-        <a href="https://one.wang64.cn" target="_blank">
-        <div class="cover">
-          <div class="frontend">
-            <i class="fa fa-empire fa-lg" aria-hidden="true"></i>
-            <div class="content">
-              <span>OnePiece</span>
-            </div>
-          </div>
-          <div class="backend"></div>
-        </div>
-        </a>
-      </div>
-
-      <div class="item">
         <a href="https://cmd.wang64.cn/sh.html" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-circle-o-notch fa-lg" aria-hidden="true"></i>
             <div class="content">
               <span>Shell</span>
-            </div>
-          </div>
-          <div class="backend"></div>
-        </div>
-        </a>
-      </div>
-
-      <div class="item">
-        <a href="https://box.zankyo.cc/mikutap" target="_blank">
-        <div class="cover">
-          <div class="frontend">
-            <i class="fa fa-cogs fa-lg" aria-hidden="true"></i>
-            <div class="content">
-              <span>Mikutap</span>
             </div>
           </div>
           <div class="backend"></div>
@@ -107,6 +79,8 @@
 export default {
   props: {},
   data () {
+    return {
+    }
   },
   computed: {},
   created () { },
@@ -174,7 +148,7 @@ export default {
     &:hover {
       &:nth-child(n) {
         .backend {
-          background-image: linear-gradient(-45deg, #50b5ef, #6284f1);
+          background-image: linear-gradient(-45deg, #158cd1, #6284f1);
         }
       }
       &:nth-child(2n) {

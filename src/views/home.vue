@@ -1,19 +1,20 @@
 <template>
   <div class="home">
     <div class="avatar">
-      <a href="https://onepiece.wang64.cn/" target="_blank">
+      <a href="https://me.wang64.cn/" target="_blank">
         <img src="~@/assets/images/head.jpg">
       </a>
     </div>
-    <!-- <div class="content">
-      <h1>世界上最大的谎言</h1>
-    </div> -->
+    <div class="content">
+      <h1>{{ title }}</h1>
+    </div>
     <div class="container">
+
       <div class="item">
         <a href="https://blog.wang64.cn/" target="_blank">
         <div class="cover">
           <div class="frontend">
-            <i class="fa fa-fast-backward fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-backward fa-lg" aria-hidden="true"></i>
             <div class="content">
               <span>&diams;Blog&diams;</span>
             </div>
@@ -22,6 +23,7 @@
         </div>
         </a>
       </div>
+
       <div class="item">
         <a href="https://me.wang64.cn/" target="_blank">
         <div class="cover">
@@ -35,11 +37,12 @@
         </div>
         </a>
       </div>
+
       <div class="item">
         <a href="https://article.wang64.cn/" target="_blank">
         <div class="cover">
           <div class="frontend">
-            <i class="fa fa-fast-forward fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-forward fa-lg" aria-hidden="true"></i>
             <div class="content">
               <span>&diams;Article&diams;</span>
             </div>
@@ -48,6 +51,51 @@
         </div>
         </a>
       </div>
+
+      <div class="item">
+        <a href="https://box.zankyo.cc/mikutap" target="_blank">
+        <div class="cover">
+          <div class="frontend">
+            <!-- <i class="fa fa-cogs fa-lg" aria-hidden="true"></i> -->
+            <i class="fa fa-fast-backward fa-lg" aria-hidden="true"></i>
+            <div class="content">
+              <span>Mikutap</span>
+            </div>
+          </div>
+          <div class="backend"></div>
+        </div>
+        </a>
+      </div>
+
+      <div class="item">
+        <a href="https://msg.wang64.cn" target="_blank">
+        <div class="cover">
+          <div class="frontend">
+            <i class="fa fa-anchor fa-lg" aria-hidden="true"></i>
+            <div class="content">
+              <span>Message</span>
+            </div>
+          </div>
+          <div class="backend"></div>
+        </div>
+        </a>
+      </div>
+
+      <div class="item">
+        <a href="https://one.wang64.cn" target="_blank">
+        <div class="cover">
+          <div class="frontend">
+            <!-- <i class="fa fa-empire fa-lg" aria-hidden="true"></i> -->
+            <i class="fa fa-fast-forward fa-lg" aria-hidden="true"></i>
+            <div class="content">
+              <span>OnePiece</span>
+            </div>
+          </div>
+          <div class="backend"></div>
+        </div>
+        </a>
+      </div>
+
     </div>
   </div>
 </template>
@@ -56,27 +104,42 @@ export default {
   props: {},
   data () {
     return {
+      text: [
+        '⊙▂⊙',
+        '⊙０⊙',
+        '⊙︿⊙',
+        "(●'◡'●)",
+        '⊙ω⊙',
+        '⊙﹏⊙',
+        '∩０∩',
+        '∩﹏∩',
+        '●▂●',
+        '●ω●',
+        '∪ω∪',
+        '≧ω≦',
+        '＞ω＜',
+        '∩ω∩'
+      ],
+      title: '世界上最大的谎言'
     }
   },
   computed: {
-    yan () {
-      const kaomoji = [
-        '( ˊ ▽ ` )',
-        '(゜-゜)',
-        '(´･ω･`)',
-        'o(￣ヘ￣o#)',
-        '(｡・`ω´･)',
-        "(●'◡'●)",
-        '(´･ω･｀)',
-        '(ﾉ´∀` *)',
-        '╮(╯ω╰)'
-      ]
-      return kaomoji[Math.floor(kaomoji.length * Math.random())]
-    }
+    /* title: function () {
+      return this.text[Math.floor(this.text.length * Math.random())]
+    } */
   },
-  created () { },
-  mounted () { },
-  methods: {}
+  created () {
+  },
+  mounted () {
+    let t = this
+    setInterval(function () {
+      // console.log(t.text[Math.floor(t.text.length * Math.random())])
+      // console.log(Math.floor(t.text.length * Math.random()))
+      t.title = t.text[Math.floor(t.text.length * Math.random())]
+    }, 1500)
+  },
+  methods: {
+  }
 }
 </script>
 <style lang="scss" scoped>
@@ -91,7 +154,7 @@ export default {
   border-radius: 5px;
 }
 .home .avatar{
-  height: 150px;
+  height: 90px;
   text-align: center;
 }
 
@@ -103,14 +166,14 @@ export default {
 }
 
 .home .content{
-  height: 70px;
+  height: 30px;
   text-align: center;
 }
 
 .home .content h1{
   color: #fff;
   font-weight: 300;
-  font-size: 26px;
+  font-size: 20px;
 }
 .home .content p{
   color: #fff;
@@ -193,27 +256,12 @@ export default {
       }
       &:nth-child(5n) {
         .backend {
-          background-image: linear-gradient(-45deg, #25292e, #25292e);
+          background-image: linear-gradient(-50deg, #0e2342, #3e90b9);
         }
       }
       &:nth-child(6n) {
         .backend {
-          background-image: linear-gradient(-50deg, #b3281e, #f43e4f);
-        }
-      }
-      &:nth-child(7n) {
-        .backend {
           background-image: linear-gradient(-50deg, #64bea1, #3ac19f);
-        }
-      }
-      &:nth-child(8n) {
-        .backend {
-          background-image: linear-gradient(-50deg, #00a1d6, #50abe0);
-        }
-      }
-      &:nth-child(9n) {
-        .backend {
-          background-image: linear-gradient(-50deg, #0e2342, #3e90b9);
         }
       }
       
