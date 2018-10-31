@@ -48,7 +48,7 @@
         <a href="https://cmd.wang64.cn" target="_blank">
         <div class="cover">
           <div class="frontend">
-            <i class="fa fa-futbol-o fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-circle-o fa-lg" aria-hidden="true"></i>
             <div class="content">
               <span>Cmd</span>
             </div>
@@ -65,6 +65,34 @@
             <i class="fa fa-circle-o-notch fa-lg" aria-hidden="true"></i>
             <div class="content">
               <span>Shell</span>
+            </div>
+          </div>
+          <div class="backend"></div>
+        </div>
+        </a>
+      </div>
+
+      <div class="item">
+        <a href="https://box.zankyo.cc/mikutap" target="_blank">
+        <div class="cover">
+          <div class="frontend">
+            <i class="fa fa-cogs fa-lg" aria-hidden="true"></i>
+            <div class="content">
+              <span>Mikutap</span>
+            </div>
+          </div>
+          <div class="backend"></div>
+        </div>
+        </a>
+      </div>
+
+      <div class="item">
+        <a href="http://zhangwenli.com/lipstick" target="_blank">
+        <div class="cover">
+          <div class="frontend">
+            <i class="fa fa-diamond fa-lg" aria-hidden="true"></i>
+            <div class="content">
+              <span>Lipstick</span>
             </div>
           </div>
           <div class="backend"></div>
@@ -90,7 +118,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .fa{
-  color: #000;
+  color: #fff;
 }
 .container {
   width: 100%;
@@ -127,7 +155,7 @@ export default {
           line-height: 30px;
           span {
             font-size: 18px;
-            color: #000;
+            color: #fff;
             -webkit-font-smoothing: antialiased;
           }
         }

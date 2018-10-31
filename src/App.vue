@@ -116,8 +116,8 @@ export default {
   }
   .navigation {
     position: fixed;
-    
-    margin: -350px auto;
+    top: 40px;
+    right: 15px;
     transition: all 0.3s;
     li {
       float: left;

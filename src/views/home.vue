@@ -14,7 +14,7 @@
         <a href="https://blog.wang64.cn/" target="_blank">
         <div class="cover">
           <div class="frontend">
-            <i class="fa fa-backward fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-futbol-o fa-lg" aria-hidden="true"></i>
             <div class="content">
               <span>&diams;Blog&diams;</span>
             </div>
@@ -42,24 +42,9 @@
         <a href="https://article.wang64.cn/" target="_blank">
         <div class="cover">
           <div class="frontend">
-            <i class="fa fa-forward fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-life-ring fa-lg" aria-hidden="true"></i>
             <div class="content">
               <span>&diams;Article&diams;</span>
-            </div>
-          </div>
-          <div class="backend"></div>
-        </div>
-        </a>
-      </div>
-
-      <div class="item">
-        <a href="https://box.zankyo.cc/mikutap" target="_blank">
-        <div class="cover">
-          <div class="frontend">
-            <!-- <i class="fa fa-cogs fa-lg" aria-hidden="true"></i> -->
-            <i class="fa fa-fast-backward fa-lg" aria-hidden="true"></i>
-            <div class="content">
-              <span>Mikutap</span>
             </div>
           </div>
           <div class="backend"></div>
@@ -71,7 +56,8 @@
         <a href="https://msg.wang64.cn" target="_blank">
         <div class="cover">
           <div class="frontend">
-            <i class="fa fa-anchor fa-lg" aria-hidden="true"></i>
+            <!-- <i class="fa fa-empire fa-lg" aria-hidden="true"></i> -->
+            <i class="fa fa-comments-o fa-lg" aria-hidden="true"></i>
             <div class="content">
               <span>Message</span>
             </div>
@@ -85,8 +71,7 @@
         <a href="https://one.wang64.cn" target="_blank">
         <div class="cover">
           <div class="frontend">
-            <!-- <i class="fa fa-empire fa-lg" aria-hidden="true"></i> -->
-            <i class="fa fa-fast-forward fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-anchor fa-lg" aria-hidden="true"></i>
             <div class="content">
               <span>OnePiece</span>
             </div>
@@ -120,7 +105,7 @@ export default {
         '＞ω＜',
         '∩ω∩'
       ],
-      title: '世界上最大的谎言'
+      title: 'o(∩_∩)o'
     }
   },
   computed: {
@@ -144,7 +129,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .fa{
-  color: #000;
+  color: #fff;
 }
 
 .home{
@@ -212,10 +197,10 @@ export default {
           width: 70%;
           text-align: center;
           height:  26px;
-          line-height: 26px;
+          line-height: 30px;
           span {
             font-size: 18px;
-            color: #000;
+            color: #fff;
             -webkit-font-smoothing: antialiased;
           }
         }

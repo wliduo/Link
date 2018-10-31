@@ -17,7 +17,7 @@
       </div>
 
       <div class="item">
-        <a href="https://blog.csdn.net/wang926454" target="_blank">
+        <a href="https://gitee.com/wang926454" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-git fa-lg" aria-hidden="true"></i>
@@ -31,7 +31,7 @@
       </div>
 
       <div class="item">
-        <a href="https://gitee.com/wang926454" target="_blank">
+        <a href="https://blog.csdn.net/wang926454" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-codiepie fa-lg" aria-hidden="true"></i>
@@ -58,6 +58,20 @@
         </a>
       </div>
 
+      <div class="item">
+        <a href="https://diygod.me/friends" target="_blank">
+        <div class="cover">
+          <div class="frontend">
+            <i class="fa fa-link fa-lg" aria-hidden="true"></i>
+            <div class="content">
+              <span>Links</span>
+            </div>
+          </div>
+          <div class="backend"></div>
+        </div>
+        </a>
+      </div>
+
     </div>
   </div>
 </template>
@@ -76,7 +90,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .fa{
-  color: #000;
+  color: #fff;
 }
 .container {
   width: 100%;
@@ -113,7 +127,7 @@ export default {
           line-height: 30px;
           span {
             font-size: 18px;
-            color: #000;
+            color: #fff;
             -webkit-font-smoothing: antialiased;
           }
         }
