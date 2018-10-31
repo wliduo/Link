@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>随心</title>
+    <link rel="shortcut icon" href="/static/favicon.ico" />
+    <link rel="stylesheet" href="/static/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+    <style>
+      /* .aplayer {
+        background: none;
+      } */
+      .aplayer.aplayer-fixed .aplayer-lrc {
+        text-shadow: none;
+      }
+      /* .aplayer-list ol li:hover {
+                  background:rgba(148,0,211,0.8) none repeat scroll !important;
+      }
+      .aplayer-list ol li {
+          background:rgba(0,0,0,0.5);
+      } */
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <div id="aplayer"></div>
+    <script>
+      const ap = new APlayer({
+        container: document.getElementById('aplayer'),
+        fixed: true,
+        lrcType: 3,
+        order: 'random',
+        theme: '#000000',
+        volume: 2.0,
+        audio: [
+          {
+            name: 'Waiting For Love',
+            artist: 'Avicii',
+            url: 'https://wang926454.cn/upload/music/waitingforlove.mp3',
+            cover: 'https://wang926454.cn/upload/music/image/waitingforlove.png',
+            lrc: 'https://wang926454.cn/upload/music/lrc/waitingforlove.lrc'
+          },
+          {
+            name: 'Nevada',
+            artist: 'Vicetone/Cozi Zuehlsdorff',
+            url: 'https://wang926454.cn/upload/music/nevada.mp3',
+            cover: 'https://wang926454.cn/upload/music/image/nevada.png',
+            lrc: 'https://wang926454.cn/upload/music/lrc/nevada.lrc'
+          },
+          {
+            name: 'Aeon',
+            artist: 'JJD',
+            url: 'https://wang926454.cn/upload/music/aeon.mp3',
+            cover: 'https://wang926454.cn/upload/music/image/aeon.png',
+            lrc: 'https://wang926454.cn/upload/music/lrc/aeon.lrc'
+          },
+          {
+            name: 'Trip',
+            artist: 'Axero',
+            url: 'https://wang926454.cn/upload/music/trip.mp3',
+            cover: 'https://wang926454.cn/upload/music/image/trip.png',
+            lrc: 'https://wang926454.cn/upload/music/lrc/trip.lrc'
+          },
+          {
+            name: 'Horizon',
+            artist: 'Janji',
+            url: 'https://wang926454.cn/upload/music/horizon.mp3',
+            cover: 'https://wang926454.cn/upload/music/image/horizon.png',
+            lrc: 'https://wang926454.cn/upload/music/lrc/horizon.lrc'
+          },
+          {
+            name: '五月雨变奏电音',
+            artist: '者思范Remix',
+            url: 'https://wang926454.cn/upload/music/wuyueyu.mp3',
+            cover: 'https://wang926454.cn/upload/music/image/wuyueyu.png',
+            lrc: 'https://wang926454.cn/upload/music/lrc/wuyueyu.lrc'
+          },
+          {
+            name: 'Sunburst(亚索台词版)',
+            artist: 'Goi7',
+            url: 'https://wang926454.cn/upload/music/sunburst.mp3',
+            cover: 'https://wang926454.cn/upload/music/image/sunburst.png',
+            lrc: 'https://wang926454.cn/upload/music/lrc/sunburst.lrc'
+          },
+          {
+            name: 'Legends Never Die(Remix)',
+            artist: 'Alan Walker',
+            url: 'https://wang926454.cn/upload/music/legendsneverdie.mp3',
+            cover: 'https://wang926454.cn/upload/music/image/legendsneverdie.png',
+            lrc: 'https://wang926454.cn/upload/music/lrc/legendsneverdie.lrc'
+          },
+          {
+            name: 'RISE 登峰造极境',
+            artist: '英雄联盟',
+            url: 'https://wang926454.cn/upload/music/rise.mp3',
+            cover: 'https://wang926454.cn/upload/music/image/rise.png',
+            lrc: 'https://wang926454.cn/upload/music/lrc/rise.lrc'
+          },
+          {
+            name: '光るなら',
+            artist: 'Goose house',
+            url: 'https://wang926454.cn/upload/music/goosehouseguang.mp3',
+            cover: 'https://wang926454.cn/upload/music/image/goosehouseguang.png',
+            lrc: 'https://wang926454.cn/upload/music/lrc/goosehouseguang.lrc'
+          },
+          {
+            name: '風に薫る夏の記憶',
+            artist: 'AAA',
+            url: 'https://wang926454.cn/upload/music/aaa.mp3',
+            cover: 'https://wang926454.cn/upload/music/image/aaa.png',
+            lrc: 'https://wang926454.cn/upload/music/lrc/aaa.lrc'
+          },
+          {
+            name: '永久指针',
+            artist: '海贼王',
+            url: 'https://wang926454.cn/upload/music/yongjiuzhizhen.mp3',
+            cover: 'https://wang926454.cn/upload/music/image/yongjiuzhizhen.png',
+            lrc: 'https://wang926454.cn/upload/music/lrc/yongjiuzhizhen.lrc'
+          },
+          {
+            name: '一直很安静',
+            artist: '阿桑',
+            url: 'https://wang926454.cn/upload/music/yizhihenanjing.mp3',
+            cover: 'https://wang926454.cn/upload/music/image/yizhihenanjing.png',
+            lrc: 'https://wang926454.cn/upload/music/lrc/yizhihenanjing.lrc'
+          },
+          {
+            name: '侧脸',
+            artist: '于果',
+            url: 'https://wang926454.cn/upload/music/celian.mp3',
+            cover: 'https://wang926454.cn/upload/music/image/celian.png',
+            lrc: 'https://wang926454.cn/upload/music/lrc/celian.lrc'
+          },
+          {
+            name: '从别后(Tvsize)',
+            artist: '流浪的蛙蛙',
+            url: 'https://wang926454.cn/upload/music/congbiehou.mp3',
+            cover: 'https://wang926454.cn/upload/music/image/congbiehou.png',
+            lrc: 'https://wang926454.cn/upload/music/lrc/congbiehou.lrc'
+          }]
+      });
+    </script>
+    <script type="text/javascript" src="https://article.wang64.cn/js/src/love.js"></script>
+  </body>
+</html>
