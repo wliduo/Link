@@ -58,7 +58,7 @@
         </a>
       </div>
 
-      <div class="item">
+      <!-- <div class="item">
         <a href="https://diygod.me/friends" target="_blank">
         <div class="cover">
           <div class="frontend">
@@ -70,7 +70,7 @@
           <div class="backend"></div>
         </div>
         </a>
-      </div>
+      </div> -->
 
     </div>
   </div>

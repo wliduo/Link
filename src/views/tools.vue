@@ -73,7 +73,7 @@
       </div>
 
       <div class="item">
-        <a href="https://box.zankyo.cc/mikutap" target="_blank">
+        <a href="https://mikutap.wang64.cn" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-cogs fa-lg" aria-hidden="true"></i>

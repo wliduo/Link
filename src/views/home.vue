@@ -6,17 +6,17 @@
       </a>
     </div>
     <div class="content">
-      <h1>{{ title }}</h1>
+      <h1 @click="cv = true">{{ title }}</h1>
     </div>
     <div class="container">
 
       <div class="item">
-        <a href="https://blog.wang64.cn/" target="_blank">
+        <a href="https://note.wang64.cn/" target="_blank">
         <div class="cover">
           <div class="frontend">
-            <i class="fa fa-futbol-o fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-snowflake-o fa-lg" aria-hidden="true"></i>
             <div class="content">
-              <span>&diams;Blog&diams;</span>
+              <span>&diams;Note&diams;</span>
             </div>
           </div>
           <div class="backend"></div>
@@ -39,12 +39,12 @@
       </div>
 
       <div class="item">
-        <a href="https://article.wang64.cn/" target="_blank">
+        <a href="https://blog.wang64.cn/" target="_blank">
         <div class="cover">
           <div class="frontend">
-            <i class="fa fa-life-ring fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-futbol-o fa-lg" aria-hidden="true"></i>
             <div class="content">
-              <span>&diams;Article&diams;</span>
+              <span>&diams;Blog&diams;</span>
             </div>
           </div>
           <div class="backend"></div>
@@ -53,13 +53,12 @@
       </div>
 
       <div class="item">
-        <a href="https://msg.wang64.cn" target="_blank">
+        <a href="https://article.wang64.cn/" target="_blank">
         <div class="cover">
           <div class="frontend">
-            <!-- <i class="fa fa-empire fa-lg" aria-hidden="true"></i> -->
-            <i class="fa fa-comments-o fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-sun-o fa-lg" aria-hidden="true"></i>
             <div class="content">
-              <span>Message</span>
+              <span>Article</span>
             </div>
           </div>
           <div class="backend"></div>
@@ -74,6 +73,35 @@
             <i class="fa fa-anchor fa-lg" aria-hidden="true"></i>
             <div class="content">
               <span>OnePiece</span>
+            </div>
+          </div>
+          <div class="backend"></div>
+        </div>
+        </a>
+      </div>
+
+      <div class="item">
+        <a href="https://msg.wang64.cn" target="_blank">
+        <div class="cover">
+          <div class="frontend">
+            <!-- <i class="fa fa-empire fa-lg" aria-hidden="true"></i> -->
+            <i class="fa fa-envira fa-lg" aria-hidden="true"></i>
+            <div class="content">
+              <span>Message</span>
+            </div>
+          </div>
+          <div class="backend"></div>
+        </div>
+        </a>
+      </div>
+
+      <div class="item" v-if="cv">
+        <a href="https://cv.wang64.cn" target="_blank">
+        <div class="cover">
+          <div class="frontend">
+            <i class="fa fa-superpowers fa-lg" aria-hidden="true"></i>
+            <div class="content">
+              <span>MyCv</span>
             </div>
           </div>
           <div class="backend"></div>
@@ -105,7 +133,8 @@ export default {
         '＞ω＜',
         '∩ω∩'
       ],
-      title: 'o(∩_∩)o'
+      title: 'o(∩_∩)o',
+      cv: false
     }
   },
   computed: {
