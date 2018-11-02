@@ -1,12 +1,12 @@
 <template>
   <div class="home">
     <div class="avatar">
-      <a href="https://me.wang64.cn/" target="_blank">
+      <a :href="titleUrl" target="_blank">
         <img src="~@/assets/images/head.jpg">
       </a>
     </div>
     <div class="content">
-      <h1 @click="cv = true">{{ title }}</h1>
+      <h1 @click="titleUrl = 'https://cv.wang64.cn'">{{ title }}</h1>
     </div>
     <div class="container">
 
@@ -95,7 +95,7 @@
         </a>
       </div>
 
-      <div class="item" v-if="cv">
+      <!-- <div class="item" v-if="cv">
         <a href="https://cv.wang64.cn" target="_blank">
         <div class="cover">
           <div class="frontend">
@@ -107,7 +107,7 @@
           <div class="backend"></div>
         </div>
         </a>
-      </div>
+      </div> -->
 
     </div>
   </div>
@@ -134,7 +134,7 @@ export default {
         '∩ω∩'
       ],
       title: 'o(∩_∩)o',
-      cv: false
+      titleUrl: 'https://me.wang64.cn'
     }
   },
   computed: {
@@ -153,6 +153,7 @@ export default {
     }, 1500)
   },
   methods: {
+
   }
 }
 </script>
