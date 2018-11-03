@@ -3,7 +3,7 @@
     <div class="container">
 
       <div class="item">
-        <a href="https://cmd.wang64.cn/sh.html" target="_blank">
+        <a href="https://cmd.wang64.cn/sh" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-circle-o-notch fa-lg" aria-hidden="true"></i>
@@ -36,7 +36,7 @@
           <div class="frontend">
             <i class="fa fa-font fa-lg" aria-hidden="true"></i>
             <div class="content">
-              <span>Cool字体</span>
+              <span>Random</span>
             </div>
           </div>
           <div class="backend"></div>
@@ -59,12 +59,12 @@
       </div>
 
       <div class="item">
-        <a href="https://char.wang64.cn/video.html" target="_blank">
+        <a href="https://char.wang64.cn/video" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-youtube-play fa-lg" aria-hidden="true"></i>
             <div class="content">
-              <span>Vid字符</span>
+              <span>Video字符</span>
             </div>
           </div>
           <div class="backend"></div>
