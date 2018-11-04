@@ -6,7 +6,7 @@
       </a>
     </div>
     <div class="content">
-      <h1 @click="titleUrl = 'https://cv.wang64.cn'">{{ title }}</h1>
+      <h1 @click="titleUrl = 'https://me.wang64.cn'">{{ title }}</h1>
     </div>
     <div class="container">
 
@@ -25,12 +25,12 @@
       </div>
 
       <div class="item">
-        <a href="https://me.wang64.cn/" target="_blank">
+        <a href="https://cv.wang64.cn/" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-heartbeat fa-lg" aria-hidden="true"></i>
             <div class="content">
-              <span>&rarr;Me&larr;</span>
+              <span>&rarr;CV&larr;</span>
             </div>
           </div>
           <div class="backend"></div>
