@@ -11,7 +11,7 @@
     <div class="container">
 
       <div class="item">
-        <a href="https://note.wang64.cn/" target="_blank">
+        <a href="https://article.wang64.cn" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-snowflake-o fa-lg" aria-hidden="true"></i>
@@ -25,7 +25,7 @@
       </div>
 
       <div class="item">
-        <a href="https://cv.wang64.cn/" target="_blank">
+        <a href="https://cv.wang64.cn" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-heartbeat fa-lg" aria-hidden="true"></i>
@@ -39,40 +39,12 @@
       </div>
 
       <div class="item">
-        <a href="https://blog.wang64.cn/" target="_blank">
+        <a href="https://blog.wang64.cn" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-futbol-o fa-lg" aria-hidden="true"></i>
             <div class="content">
               <span>&diams;Blog&diams;</span>
-            </div>
-          </div>
-          <div class="backend"></div>
-        </div>
-        </a>
-      </div>
-
-      <div class="item">
-        <a href="https://article.wang64.cn/" target="_blank">
-        <div class="cover">
-          <div class="frontend">
-            <i class="fa fa-sun-o fa-lg" aria-hidden="true"></i>
-            <div class="content">
-              <span>Article</span>
-            </div>
-          </div>
-          <div class="backend"></div>
-        </div>
-        </a>
-      </div>
-
-      <div class="item">
-        <a href="https://one.wang64.cn" target="_blank">
-        <div class="cover">
-          <div class="frontend">
-            <i class="fa fa-anchor fa-lg" aria-hidden="true"></i>
-            <div class="content">
-              <span>OnePiece</span>
             </div>
           </div>
           <div class="backend"></div>
@@ -88,6 +60,34 @@
             <i class="fa fa-envira fa-lg" aria-hidden="true"></i>
             <div class="content">
               <span>Message</span>
+            </div>
+          </div>
+          <div class="backend"></div>
+        </div>
+        </a>
+      </div>
+
+      <div class="item">
+        <a href="https://res.wang64.cn" target="_blank">
+        <div class="cover">
+          <div class="frontend">
+            <i class="fa fa-superpowers fa-lg" aria-hidden="true"></i>
+            <div class="content">
+              <span>Music</span>
+            </div>
+          </div>
+          <div class="backend"></div>
+        </div>
+        </a>
+      </div>
+
+      <div class="item">
+        <a href="https://one.wang64.cn" target="_blank">
+        <div class="cover">
+          <div class="frontend">
+            <i class="fa fa-anchor fa-lg" aria-hidden="true"></i>
+            <div class="content">
+              <span>OnePiece</span>
             </div>
           </div>
           <div class="backend"></div>
