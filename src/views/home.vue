@@ -2,7 +2,7 @@
   <div class="home">
     <div class="avatar">
       <a :href="titleUrl" target="_blank">
-        <img src="~@/assets/images/head.jpg">
+        <img src="https://wang926454.gitee.io/reader/Image/headt.png">
       </a>
     </div>
     <div class="content">
