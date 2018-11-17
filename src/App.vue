@@ -20,14 +20,18 @@
 import home from '@/views/home'
 import about from '@/views/about'
 import project from '@/views/project'
+import friend from '@/views/friend'
 import tools from '@/views/tools'
+import links from '@/views/links'
 export default {
   name: 'app',
   components: {
     home,
     about,
     project,
-    tools
+    tools,
+    friend,
+    links
   },
   data () {
     return {
@@ -35,7 +39,7 @@ export default {
       active: 'home',
       inPage: 'home',
       outPage: '',
-      navigation: ['home', 'tools', 'about']
+      navigation: ['home', 'links', 'friend', 'tools', 'about']
     }
   },
   created () { },

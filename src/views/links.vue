@@ -3,12 +3,12 @@
     <div class="container">
 
       <div class="item">
-        <a href="https://char.wang64.cn" target="_blank">
+        <a href="https://note.wang64.cn" target="_blank">
         <div class="cover">
           <div class="frontend">
-            <i class="fa fa-picture-o fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-snowflake-o fa-lg" aria-hidden="true"></i>
             <div class="content">
-              <span>Pic字符</span>
+              <span>Note</span>
             </div>
           </div>
           <div class="backend"></div>
@@ -17,12 +17,12 @@
       </div>
 
       <div class="item">
-        <a href="https://text.wang64.cn" target="_blank">
+        <a href="https://article.wang64.cn" target="_blank">
         <div class="cover">
           <div class="frontend">
-            <i class="fa fa-font fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-sun-o fa-lg" aria-hidden="true"></i>
             <div class="content">
-              <span>Random</span>
+              <span>Article</span>
             </div>
           </div>
           <div class="backend"></div>
@@ -31,12 +31,12 @@
       </div>
 
       <div class="item">
-        <a href="https://char.wang64.cn/video" target="_blank">
+        <a href="https://blog.wang64.cn" target="_blank">
         <div class="cover">
           <div class="frontend">
-            <i class="fa fa-play fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-futbol-o fa-lg" aria-hidden="true"></i>
             <div class="content">
-              <span>Vid字符</span>
+              <span>Blog</span>
             </div>
           </div>
           <div class="backend"></div>
@@ -45,19 +45,102 @@
       </div>
 
       <div class="item">
-        <a href="https://cmd.wang64.cn" target="_blank">
+        <a href="https://mikutap.wang64.cn" target="_blank">
         <div class="cover">
           <div class="frontend">
-            <!-- <i class="fa fa-circle-o fa-lg" aria-hidden="true"></i> -->
-            <i class="fa fa-circle-o-notch fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-cogs fa-lg" aria-hidden="true"></i>
             <div class="content">
-              <span>Cmd命令</span>
+              <span>Mikutap</span>
             </div>
           </div>
           <div class="backend"></div>
         </div>
         </a>
       </div>
+
+      <div class="item">
+        <a href="https://lipstick.wang64.cn" target="_blank">
+        <div class="cover">
+          <div class="frontend">
+            <i class="fa fa-diamond fa-lg" aria-hidden="true"></i>
+            <div class="content">
+              <span>Lipstick</span>
+            </div>
+          </div>
+          <div class="backend"></div>
+        </div>
+        </a>
+      </div>
+
+      <!-- <div class="item">
+        <a href="https://github.com/wang926454" target="_blank">
+        <div class="cover">
+          <div class="frontend">
+            <i class="fa fa-github fa-lg" aria-hidden="true"></i>
+            <div class="content">
+              <span>Github</span>
+            </div>
+          </div>
+          <div class="backend"></div>
+        </div>
+        </a>
+      </div>
+
+      <div class="item">
+        <a href="https://gitee.com/wang926454" target="_blank">
+        <div class="cover">
+          <div class="frontend">
+            <i class="fa fa-git fa-lg" aria-hidden="true"></i>
+            <div class="content">
+              <span>Gitee</span>
+            </div>
+          </div>
+          <div class="backend"></div>
+        </div>
+        </a>
+      </div>
+
+      <div class="item">
+        <a href="https://blog.csdn.net/wang926454" target="_blank">
+        <div class="cover">
+          <div class="frontend">
+            <i class="fa fa-codiepie fa-lg" aria-hidden="true"></i>
+            <div class="content">
+              <span>CSDN</span>
+            </div>
+          </div>
+          <div class="backend"></div>
+        </div>
+        </a>
+      </div>
+
+      <div class="item">
+        <a href="https://weibo.com/wang926454" target="_blank">
+        <div class="cover">
+          <div class="frontend">
+            <i class="fa fa-weibo fa-lg" aria-hidden="true"></i>
+            <div class="content">
+              <span>Weibo</span>
+            </div>
+          </div>
+          <div class="backend"></div>
+        </div>
+        </a>
+      </div> -->
+
+      <!-- <div class="item">
+        <a href="https://diygod.me/friends" target="_blank">
+        <div class="cover">
+          <div class="frontend">
+            <i class="fa fa-link fa-lg" aria-hidden="true"></i>
+            <div class="content">
+              <span>Links</span>
+            </div>
+          </div>
+          <div class="backend"></div>
+        </div>
+        </a>
+      </div> -->
 
     </div>
   </div>
