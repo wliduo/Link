@@ -6,17 +6,17 @@
       </a>
     </div>
     <div class="content">
-      <h1 @click="titleUrl = 'https://me.wang64.cn'">{{ title }}</h1>
+      <a :href="titleUrl" target="_blank"><h1 @click="titleUrl = 'https://me.wang64.cn'">{{ title }}</h1></a>
     </div>
     <div class="container">
 
       <div class="item">
-        <a href="https://chats.wang64.cn" target="_blank">
+        <a href="https://res.wang64.cn" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-envira fa-lg" aria-hidden="true"></i>
             <div class="content">
-              <span>Chats</span>
+              <span>Music</span>
             </div>
           </div>
           <div class="backend"></div>
@@ -28,7 +28,7 @@
         <a href="https://cv.wang64.cn" target="_blank">
         <div class="cover">
           <div class="frontend">
-            <i class="fa fa-rebel fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-heartbeat fa-lg" aria-hidden="true"></i>
             <div class="content">
               <span>MyCv</span>
             </div>
@@ -39,12 +39,12 @@
       </div>
 
       <div class="item">
-        <a href="https://res.wang64.cn" target="_blank">
+        <a href="https://lis.wang64.cn" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-superpowers fa-lg" aria-hidden="true"></i>
             <div class="content">
-              <span>Music</span>
+              <span>Video</span>
             </div>
           </div>
           <div class="backend"></div>
@@ -67,12 +67,13 @@
       </div>
 
       <div class="item">
-        <a href="https://me.wang64.cn" target="_blank">
+        <a href="https://chats.wang64.cn" target="_blank">
         <div class="cover">
           <div class="frontend">
-            <i class="fa fa-heartbeat fa-lg" aria-hidden="true"></i>
+            <!-- <i class="fa fa-empire fa-lg" aria-hidden="true"></i> -->
+            <i class="fa fa-weixin fa-lg" aria-hidden="true"></i>
             <div class="content">
-              <span>Myself</span>
+              <span>MyChat</span>
             </div>
           </div>
           <div class="backend"></div>
@@ -84,8 +85,9 @@
         <a href="https://msg.wang64.cn" target="_blank">
         <div class="cover">
           <div class="frontend">
-            <!-- <i class="fa fa-empire fa-lg" aria-hidden="true"></i> -->
-            <i class="fa fa-weixin fa-lg" aria-hidden="true"></i>
+            <!-- <i class="fa fa-rebel fa-lg" aria-hidden="true"></i> -->
+            <!-- <i class="fa fa-simplybuilt  fa-lg" aria-hidden="true"></i> -->
+            <i class="fa fa-hourglass-2  fa-lg" aria-hidden="true"></i>
             <div class="content">
               <span>Message</span>
             </div>
@@ -146,6 +148,24 @@ export default {
 <style lang="scss" scoped>
 .fa{
   color: #fff;
+}
+
+a {
+    color: #ddd;
+    text-decoration:none;
+}
+
+a:link {
+    color: #ddd;
+    text-decoration:none;
+}
+a:visited {
+    color: #ddd;
+    text-decoration:none;
+}
+a:active {
+    color: #ddd;
+    text-decoration:none;
 }
 
 .home{
