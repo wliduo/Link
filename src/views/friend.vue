@@ -132,7 +132,7 @@ export default {
           name: '随心',
           more: '第一第一',
           more2: '',
-          link: 'http://wang64.cn',
+          link: 'https://me.wang64.cn',
           avatar: 'https://wang926454.gitee.io/reader/Image/headt.png',
           danmus: [
             '第一个当然给自己了',
