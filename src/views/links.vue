@@ -72,6 +72,20 @@
         </a>
       </div>
 
+      <div class="item">
+        <a href="https://danmaku.wang64.cn" target="_blank">
+        <div class="cover">
+          <div class="frontend">
+            <i class="fa fa-rebel fa-lg" aria-hidden="true"></i>
+            <div class="content">
+              <span>Danmaku</span>
+            </div>
+          </div>
+          <div class="backend"></div>
+        </div>
+        </a>
+      </div>
+
       <!-- <div class="item">
         <a href="https://github.com/wang926454" target="_blank">
         <div class="cover">

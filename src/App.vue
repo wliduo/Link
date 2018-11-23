@@ -58,10 +58,13 @@ export default {
   methods: {
     flip (status) {
       if (this.active === status) return
+      if (this.active === 'about') {
+        this.inPage = ''
+        this.outPage = ''
+      }
       this.active = status
       this.flipState = !this.flipState
       this.flipState ? this.outPage = status : this.inPage = status
-      // this.flipState ? this.inPage = 'blank' : this.outPage = 'blank'
     },
     updateGradient (option) {
       let obj = document.querySelector('.bg')

@@ -1,11 +1,8 @@
 <template>
   <div class="container">
-    <div class="item" v-for="(item, index) in list" :key="index" @dblclick="openLink(item.link)">
-      <vue-danmaku class="item-wrap" :ref="'danmaku-' + item.id" :config="item.config || config" :danmus="item.danmus" @mouseIn="onMouseIn(item.id)" @mouseOut="onMouseOut(item.id)">
-        <!-- <div class="intro">
-          <h2>{{ item.name }}</h2>
-          <p>{{ item.more }}<span>{{item.more2}}</span></p>
-        </div> -->
+    <div class="item" v-for="(item, index) in list" :key="index" @click="openLink(item.link)">
+      <vue-danmaku class="item-wrap" :ref="'danmaku-' + item.id" :config="item.config || config" :danmus="item.danmus">
+        
       </vue-danmaku>
     </div>
   </div>
@@ -25,10 +22,26 @@ export default {
           name: '随心',
           more: '第一第一',
           more2: '',
-          link: 'http://me.wang64.cn',
+          link: 'https://me.wang64.cn',
           danmus: [
-            '第一个当然给自己了',
-            '轻轻双击打开~',
+            '看什么看，不就是一堆弹幕啊~',
+            '⊙▂⊙',
+            '轻轻点击打开关于页面~',
+            '⊙ω⊙',
+            '●▂●',
+            '⊙﹏⊙',
+            '∩﹏∩',
+            '我猜你肯定盯着看我写的弹幕了~',
+            "(●'◡'●)",
+            '⊙０⊙',
+            'hhh~',
+            '⊙︿⊙',
+            '∩０∩',
+            '●ω●',
+            '∪ω∪',
+            '≧ω≦',
+            '＞ω＜',
+            '∩ω∩',
             '实在是不知道说什么~o(*////▽////*)o'
           ]
         }
@@ -41,14 +54,13 @@ export default {
   },
   computed: {},
   created () { },
-  mounted () { },
+  mounted () {
+    this.$refs['danmaku-' + 'wang926454'][0].play()
+    setTimeout(() => {
+      this.$refs['danmaku-' + 'wang926454'][0].resize()
+    }, 300)
+  },
   methods: {
-    onMouseIn (id) {
-      this.$refs['danmaku-' + id][0].play()
-      setTimeout(() => {
-        this.$refs['danmaku-' + id][0].resize()
-      }, 300)
-    },
     onMouseOut (id) {
       this.$refs['danmaku-' + id][0].stop()
     },
@@ -83,8 +95,8 @@ export default {
       }
     }
     .item-wrap {
-      width: 70%;
-      height: 70%;
+      width: 100%;
+      height: 100%;
       transition: all 0.3s;
       display: flex;
       align-items: center;

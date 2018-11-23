@@ -85,9 +85,8 @@
         <a href="https://msg.wang64.cn" target="_blank">
         <div class="cover">
           <div class="frontend">
-            <!-- <i class="fa fa-rebel fa-lg" aria-hidden="true"></i> -->
             <!-- <i class="fa fa-simplybuilt  fa-lg" aria-hidden="true"></i> -->
-            <i class="fa fa-hourglass-2  fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-hourglass-o  fa-lg" aria-hidden="true"></i>
             <div class="content">
               <span>Message</span>
             </div>
