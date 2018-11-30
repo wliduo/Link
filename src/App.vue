@@ -21,7 +21,7 @@ import home from '@/views/home'
 import about from '@/views/about'
 import project from '@/views/project'
 import friend from '@/views/friend'
-import tools from '@/views/tools'
+import chain from '@/views/chain'
 import links from '@/views/links'
 export default {
   name: 'app',
@@ -29,7 +29,7 @@ export default {
     home,
     about,
     project,
-    tools,
+    chain,
     friend,
     links
   },
@@ -39,7 +39,7 @@ export default {
       active: 'home',
       inPage: 'home',
       outPage: '',
-      navigation: ['home', 'links', 'friend', 'tools', 'about']
+      navigation: ['home', 'links', 'friend', 'chain', 'about']
     }
   },
   created () { },

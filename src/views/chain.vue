@@ -3,34 +3,6 @@
     <div class="container">
 
       <div class="item">
-        <a href="https://char.wang64.cn" target="_blank">
-        <div class="cover">
-          <div class="frontend">
-            <i class="fa fa-picture-o fa-lg" aria-hidden="true"></i>
-            <div class="content">
-              <span>Pic字符</span>
-            </div>
-          </div>
-          <div class="backend"></div>
-        </div>
-        </a>
-      </div>
-
-      <div class="item">
-        <a href="https://text.wang64.cn" target="_blank">
-        <div class="cover">
-          <div class="frontend">
-            <i class="fa fa-font fa-lg" aria-hidden="true"></i>
-            <div class="content">
-              <span>Random</span>
-            </div>
-          </div>
-          <div class="backend"></div>
-        </div>
-        </a>
-      </div>
-
-      <div class="item">
         <a href="https://char.wang64.cn/video" target="_blank">
         <div class="cover">
           <div class="frontend">
@@ -45,13 +17,68 @@
       </div>
 
       <div class="item">
-        <a href="https://cmd.wang64.cn" target="_blank">
+        <a href="https://bing.ioliu.cn" target="_blank">
         <div class="cover">
           <div class="frontend">
-            <!-- <i class="fa fa-circle-o fa-lg" aria-hidden="true"></i> -->
-            <i class="fa fa-circle-o-notch fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-file-image-o fa-lg" aria-hidden="true"></i>
             <div class="content">
-              <span>Cmd命令</span>
+              <span>Bing壁纸</span>
+            </div>
+          </div>
+          <div class="backend"></div>
+        </div>
+        </a>
+      </div>
+
+      <div class="item">
+        <a href="https://api.i-meto.com" target="_blank">
+        <div class="cover">
+          <div class="frontend">
+            <i class="fa fa-eercast fa-lg" aria-hidden="true"></i>
+            <div class="content">
+              <span>MetoAPI</span>
+            </div>
+          </div>
+          <div class="backend"></div>
+        </div>
+        </a>
+      </div>
+
+      <div class="item">
+        <a href="http://pandownload.com" target="_blank">
+        <div class="cover">
+          <div class="frontend">
+            <i class="fa fa-arrow-down fa-lg" aria-hidden="true"></i>
+            <div class="content">
+              <span>Pan下载</span>
+            </div>
+          </div>
+          <div class="backend"></div>
+        </div>
+        </a>
+      </div>
+
+      <div class="item">
+        <a href="http://www.cyxitong.com" target="_blank">
+        <div class="cover">
+          <div class="frontend">
+            <i class="fa fa-window-maximize fa-lg" aria-hidden="true"></i>
+            <div class="content">
+              <span>Cy系统</span>
+            </div>
+          </div>
+          <div class="backend"></div>
+        </div>
+        </a>
+      </div>
+
+      <div class="item">
+        <a href="https://hellodigua.github.io/vue-danmaku" target="_blank">
+        <div class="cover">
+          <div class="frontend">
+            <i class="fa fa-rebel fa-lg" aria-hidden="true"></i>
+            <div class="content">
+              <span>Danmaku</span>
             </div>
           </div>
           <div class="backend"></div>

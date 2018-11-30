@@ -45,6 +45,20 @@
       </div>
 
       <div class="item">
+        <a href="https://char.wang64.cn" target="_blank">
+        <div class="cover">
+          <div class="frontend">
+            <i class="fa fa-picture-o fa-lg" aria-hidden="true"></i>
+            <div class="content">
+              <span>Picture</span>
+            </div>
+          </div>
+          <div class="backend"></div>
+        </div>
+        </a>
+      </div>
+
+      <div class="item">
         <a href="https://mikutap.wang64.cn" target="_blank">
         <div class="cover">
           <div class="frontend">
@@ -73,12 +87,27 @@
       </div>
 
       <div class="item">
-        <a href="https://danmaku.wang64.cn" target="_blank">
+        <a href="https://cmd.wang64.cn" target="_blank">
         <div class="cover">
           <div class="frontend">
-            <i class="fa fa-rebel fa-lg" aria-hidden="true"></i>
+            <!-- <i class="fa fa-circle-o fa-lg" aria-hidden="true"></i> -->
+            <i class="fa fa-circle-o-notch fa-lg" aria-hidden="true"></i>
             <div class="content">
-              <span>Danmaku</span>
+              <span>Command</span>
+            </div>
+          </div>
+          <div class="backend"></div>
+        </div>
+        </a>
+      </div>
+
+      <div class="item">
+        <a href="https://text.wang64.cn" target="_blank">
+        <div class="cover">
+          <div class="frontend">
+            <i class="fa fa-font fa-lg" aria-hidden="true"></i>
+            <div class="content">
+              <span>Random</span>
             </div>
           </div>
           <div class="backend"></div>
