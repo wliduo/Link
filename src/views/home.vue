@@ -5,11 +5,54 @@
         <img src="https://wang926454.gitee.io/reader/Image/headt.png">
       </a>
     </div>
-    <div class="content">
+    <!-- <div class="content">
       <a :href="titleUrl" target="_blank"><h1 @click="titleUrl = 'https://me.wang64.cn'">{{ title }}</h1></a>
-    </div>
+    </div> -->
     <div class="container">
 
+      <div class="item">
+        <a href="https://note.wang64.cn" target="_blank">
+        <div class="cover">
+          <div class="frontend">
+            <i class="fa fa-snowflake-o fa-lg" aria-hidden="true"></i>
+            <div class="content">
+              <span>Note</span>
+            </div>
+          </div>
+          <div class="backend"></div>
+        </div>
+        </a>
+      </div>
+
+      <div class="item">
+        <!-- <a href="https://blog.wang64.cn" target="_blank">
+        <div class="cover">
+          <div class="frontend">
+            
+            <div class="content">
+              <span></span>
+            </div>
+          </div>
+          <div class="backend"></div>
+        </div>
+        </a> -->
+        <h1 @click="titleUrl = 'https://me.wang64.cn'">{{ title }}</h1>
+      </div>
+
+      <div class="item">
+        <a href="https://blog.wang64.cn" target="_blank">
+        <div class="cover">
+          <div class="frontend">
+            <i class="fa fa-futbol-o fa-lg" aria-hidden="true"></i>
+            <div class="content">
+              <span>Blog</span>
+            </div>
+          </div>
+          <div class="backend"></div>
+        </div>
+        </a>
+      </div>
+      
       <div class="item">
         <a href="https://res.wang64.cn" target="_blank">
         <div class="cover">
@@ -174,7 +217,7 @@ a:active {
   border-radius: 5px;
 }
 .home .avatar{
-  height: 90px;
+  height: 0px;
   text-align: center;
 }
 
@@ -186,7 +229,7 @@ a:active {
 }
 
 .home .content{
-  height: 30px;
+  height: 0px;
   text-align: center;
 }
 
@@ -195,6 +238,7 @@ a:active {
   font-weight: 300;
   font-size: 20px;
 }
+
 .home .content p{
   color: #fff;
 }
@@ -208,6 +252,7 @@ a:active {
     width: calc(33.33% - 10px);
     height: calc(33.33% - 10px);
     margin: 5px;
+    text-align: center;
     .cover {
       position: relative;
       height: 100%;
@@ -252,6 +297,12 @@ a:active {
         transform: scale(1);
         background: transparent;
       }
+    }
+    h1 {
+      margin-top: 40%;
+      color: #fff;
+      font-weight: 300;
+      font-size: 20px;
     }
     &:hover {
       &:nth-child(n) {
