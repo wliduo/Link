@@ -175,8 +175,8 @@ export default {
   data () {
     return {
       text: [
-        '我拼尽全力追逐你的脚步，而你却消失在我的眼前',
         '如果生活还没能改变你，那你已经失败了',
+        '我拼尽全力追逐你的脚步，而你却消失在我的眼前',
         '你得先看重自己，否则别人就会当你一钱不值'
       ],
       title: '如果生活还没能改变你，那你已经失败了',
@@ -246,16 +246,16 @@ a:active {
 
 .home .content{
   height: 110px;
-  width: 450px;
+  width: 480px;
   margin: 0px auto;
   text-align: center;
 }
 
 .home .content h1{
-  padding-top: 45px;
+  padding-top: 55px;
   color: #fff;
-  font-weight: 300;
-  font-size: 20px;
+  font-weight: 450;
+  font-size: 1.2em;
 }
 .home .content p{
   color: #fff;

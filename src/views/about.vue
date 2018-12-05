@@ -49,7 +49,7 @@ export default {
         }
       ],
       config: {
-        channels: 6,
+        channels: 7,
         speed: 7,
         loop: true
       }

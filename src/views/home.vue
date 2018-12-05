@@ -128,7 +128,6 @@
         <a href="https://msg.wang64.cn" target="_blank">
         <div class="cover">
           <div class="frontend">
-            <!-- <i class="fa fa-simplybuilt  fa-lg" aria-hidden="true"></i> -->
             <i class="fa fa-hourglass-o  fa-lg" aria-hidden="true"></i>
             <div class="content">
               <span>Message</span>
@@ -301,8 +300,8 @@ a:active {
     h1 {
       margin-top: 40%;
       color: #fff;
-      font-weight: 300;
-      font-size: 20px;
+      font-weight: 450;
+      font-size: 1.2em;
     }
     &:hover {
       &:nth-child(n) {

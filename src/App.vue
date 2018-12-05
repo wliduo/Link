@@ -148,8 +148,8 @@ export default {
   }
   .main {
     position: relative;
-    width: 600px;
-    height: 350px;
+    width: 625px;
+    height: 400px;
     perspective: 1000px;
     -webkit-perspective: 1000px;
     .main-panel {
@@ -157,8 +157,8 @@ export default {
       height: 100%;
       width: 100%;
       .wrapper {
-        width: 600px;
-        height: 350px;
+        width: 625px;
+        height: 400px;
         background-color: rgba(0, 0, 0, 0.3);
         border-radius: 5px;
       }

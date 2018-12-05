@@ -211,11 +211,11 @@ export default {
     }
     .intro {
       h2 {
-        font-size: 18px;
+        font-size: 1em;
         color: #eee;
       }
       p {
-        font-size: 14px;
+        font-size: 0.8em;
         color: #ccc;
       }
       span {

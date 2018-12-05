@@ -86,6 +86,20 @@
         </a>
       </div>
 
+      <div class="item">
+        <a href="http://www.ofmonkey.com" target="_blank">
+        <div class="cover">
+          <div class="frontend">
+            <i class="fa fa-simplybuilt fa-lg" aria-hidden="true"></i>
+            <div class="content">
+              <span>在线工具</span>
+            </div>
+          </div>
+          <div class="backend"></div>
+        </div>
+        </a>
+      </div>
+
     </div>
   </div>
 </template>
