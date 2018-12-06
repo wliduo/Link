@@ -216,7 +216,11 @@ export default {
         '当你能飞的时候就不要放弃飞，当你能梦的时候就不要放弃梦'
       ],
       title: '这个世界上没有天才，只有不努力的笨蛋',
-      titleUrl: 'https://me.wang64.cn'
+      titleUrl: 'https://me.wang64.cn',
+      randomIndex: 0,
+      i: 0,
+      timer: 0,
+      str: ''
     }
   },
   computed: {
@@ -228,14 +232,60 @@ export default {
   },
   mounted () {
     let t = this
-    setInterval(function () {
+    /* setInterval(function () {
       // console.log(t.text[Math.floor(t.text.length * Math.random())])
       // console.log(Math.floor(t.text.length * Math.random()))
-      t.title = t.text[Math.floor(t.text.length * Math.random())]
-    }, 3000)
+      // t.title = t.text[Math.floor(t.text.length * Math.random())]
+    }, 10000) */
+    t.randomText()
+    t.typing()
   },
   methods: {
-
+    randomText () {
+      // 重置索引i和文字
+      this.i = 0
+      this.str = this.text[this.randomIndex]
+      // 减少随机数重复概率
+      let index = Math.floor(this.text.length * Math.random())
+      if (this.randomIndex !== index) {
+        this.randomIndex = index
+      } else {
+        this.randomIndex = Math.floor(this.text.length * Math.random())
+      }
+    },
+    typing () {
+      // 打字
+      if (this.i <= this.str.length) {
+        if (this.i === this.str.length) {
+          this.title = this.str.slice(0, this.i++)
+        } else {
+          this.title = this.str.slice(0, this.i++) + '_'
+        }
+        this.timer = setTimeout(() => {
+          this.typing()
+        }, 200)
+      } else {
+        clearTimeout(this.timer)
+        // 停顿1.5秒开始删除文字
+        setTimeout(() => {
+          this.clearTitle()
+        }, 1500)
+      }
+    },
+    clearTitle () {
+      // 删除文字
+      if (this.i >= 0) {
+        this.title = this.str.slice(0, this.i--) + '_'
+        this.timer = setTimeout(() => {
+          this.clearTitle()
+        }, 50)
+      } else {
+        clearTimeout(this.timer)
+        // 删除完成重置
+        this.randomText()
+        this.typing()
+      }
+    }
   }
 }
 </script>
@@ -288,7 +338,10 @@ a:active {
 }
 
 .home .content h1{
-  padding-top: 55px;
+  /* padding-top: 55px; */
+  position: relative;
+  top: 50%;
+  /* transform: translateY(-50%); */
   color: #fff;
   font-weight: 450;
   font-size: 1.2em;

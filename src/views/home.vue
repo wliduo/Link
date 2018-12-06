@@ -163,7 +163,8 @@ export default {
         '∩ω∩'
       ],
       title: 'o(∩_∩)o',
-      titleUrl: 'https://me.wang64.cn'
+      titleUrl: 'https://me.wang64.cn',
+      randomIndex: 0
     }
   },
   computed: {
@@ -174,15 +175,28 @@ export default {
   created () {
   },
   mounted () {
-    let t = this
+    /* let t = this
     setInterval(function () {
       // console.log(t.text[Math.floor(t.text.length * Math.random())])
       // console.log(Math.floor(t.text.length * Math.random()))
-      t.title = t.text[Math.floor(t.text.length * Math.random())]
-    }, 1500)
+      // t.title = t.text[Math.floor(t.text.length * Math.random())]
+    }, 1500) */
+    this.changeTitle()
   },
   methods: {
-
+    changeTitle () {
+      setTimeout(() => {
+        this.title = this.text[this.randomIndex]
+        this.changeTitle()
+        // 减少随机数重复概率
+        let index = Math.floor(this.text.length * Math.random())
+        if (this.randomIndex !== index) {
+          this.randomIndex = index
+        } else {
+          this.randomIndex = Math.floor(this.text.length * Math.random())
+        }
+      }, 1500)
+    }
   }
 }
 </script>
