@@ -213,7 +213,15 @@ export default {
         '别以为世界抛弃了你，其实世界压根没空搭理你',
         '世界上唯一不变的就是变化，世界上唯一可能的就是不可能',
         '因为有了因为，所以有了所以，既然已成既然，何必再说何必',
-        '当你能飞的时候就不要放弃飞，当你能梦的时候就不要放弃梦'
+        '当你能飞的时候就不要放弃飞，当你能梦的时候就不要放弃梦',
+        'Work hard in silence. let success make the noise.(在沉默中努力，让成功自己发声)',
+        'We are all in the world of anxiety for safe.(我们都在不安的世界里找安稳)',
+        'Loneliness is a no one to send a bad cold.(孤独是一场无人送药的重感冒)',
+        'I will start fresh, be some one new.(我要重新开始，做不一样的自己)',
+        'Never let your fear decide your future.(别让你的恐惧决定了你的未来)',
+        'I believe good things happen every day.(我相信每天都有好事发生)',
+        'Never give up, and good luck will find you.(不要放弃，好运总会垂青你的)',
+        'Win a few, lose a few. that is life.(有得也有失，生活就是如此)'
       ],
       title: '这个世界上没有天才，只有不努力的笨蛋',
       titleUrl: 'https://me.wang64.cn',
@@ -237,6 +245,8 @@ export default {
       // console.log(Math.floor(t.text.length * Math.random()))
       // t.title = t.text[Math.floor(t.text.length * Math.random())]
     }, 10000) */
+    // 一开始默认给一个随机语句
+    t.randomIndex = Math.floor(t.text.length * Math.random())
     t.randomText()
     t.typing()
   },
@@ -245,13 +255,13 @@ export default {
       // 重置索引i和文字
       this.i = 0
       this.str = this.text[this.randomIndex]
-      // 减少随机数重复概率
+      // 随机数不会和上一次重复，如果获取和上一次相同就重新获取，直到不同为止
       let index = Math.floor(this.text.length * Math.random())
-      if (this.randomIndex !== index) {
-        this.randomIndex = index
-      } else {
-        this.randomIndex = Math.floor(this.text.length * Math.random())
+      while (this.randomIndex === index) {
+        index = Math.floor(this.text.length * Math.random())
+        // console.log(this.randomIndex + ',' + index)
       }
+      this.randomIndex = index
     },
     typing () {
       // 打字
@@ -263,7 +273,7 @@ export default {
         }
         this.timer = setTimeout(() => {
           this.typing()
-        }, 200)
+        }, 150)
       } else {
         clearTimeout(this.timer)
         // 停顿1.5秒开始删除文字
@@ -331,7 +341,7 @@ a:active {
 }
 
 .home .content{
-  height: 110px;
+  height: 120px;
   width: 480px;
   margin: 0px auto;
   text-align: center;

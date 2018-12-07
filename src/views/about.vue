@@ -49,8 +49,9 @@ export default {
         }
       ],
       config: {
-        channels: 7,
+        channels: 10,
         speed: 7,
+        fontSize: 15,
         loop: true
       }
     }
@@ -58,6 +59,10 @@ export default {
   computed: {},
   created () { },
   mounted () {
+    // 如果是手机端弹幕显示行数置空，为空表示自动识别容器可容纳最高行数
+    if (this.util.isMobile()) {
+      this.config.channels = ''
+    }
     this.$refs['danmaku-wang926454'][0].play()
     setTimeout(() => {
       this.$refs['danmaku-wang926454'][0].resize()

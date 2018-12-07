@@ -142,7 +142,9 @@ export default {
         }
       ],
       config: {
-        channels: 2,
+        // channels为空表示自动识别容器可容纳最高行数
+        channels: '',
+        fontSize: 14,
         loop: true
       }
     }

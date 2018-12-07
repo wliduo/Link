@@ -150,17 +150,18 @@ export default {
         '⊙▂⊙',
         '⊙０⊙',
         '⊙︿⊙',
-        "(●'◡'●)",
         '⊙ω⊙',
-        '⊙﹏⊙',
         '∩０∩',
         '∩﹏∩',
+        "(●'◡'●)",
         '●▂●',
         '●ω●',
+        'o(∩_∩)o',
         '∪ω∪',
         '≧ω≦',
         '＞ω＜',
-        '∩ω∩'
+        '∩ω∩',
+        '⊙﹏⊙'
       ],
       title: 'o(∩_∩)o',
       titleUrl: 'https://me.wang64.cn',
@@ -175,26 +176,29 @@ export default {
   created () {
   },
   mounted () {
-    /* let t = this
-    setInterval(function () {
+    let t = this
+    /* setInterval(function () {
       // console.log(t.text[Math.floor(t.text.length * Math.random())])
       // console.log(Math.floor(t.text.length * Math.random()))
       // t.title = t.text[Math.floor(t.text.length * Math.random())]
     }, 1500) */
-    this.changeTitle()
+    // 一开始默认给一个随机标题
+    t.title = t.text[Math.floor(t.text.length * Math.random())]
+    t.changeTitle()
   },
   methods: {
     changeTitle () {
       setTimeout(() => {
+        // 随机数不会和上一次重复，如果获取和上一次相同就重新获取，直到不同为止
+        let index = Math.floor(this.text.length * Math.random())
+        while (this.randomIndex === index) {
+          index = Math.floor(this.text.length * Math.random())
+        // console.log(this.randomIndex + ',' + index)
+        }
+        this.randomIndex = index
+        // 给标题赋值
         this.title = this.text[this.randomIndex]
         this.changeTitle()
-        // 减少随机数重复概率
-        let index = Math.floor(this.text.length * Math.random())
-        if (this.randomIndex !== index) {
-          this.randomIndex = index
-        } else {
-          this.randomIndex = Math.floor(this.text.length * Math.random())
-        }
       }, 1500)
     }
   }
@@ -312,7 +316,7 @@ a:active {
       }
     }
     h1 {
-      margin-top: 40%;
+      margin-top: 47%;
       color: #fff;
       font-weight: 450;
       font-size: 1.2em;
