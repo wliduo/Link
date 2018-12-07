@@ -176,32 +176,32 @@ export default {
     &:hover {
       &:nth-child(n) {
         .backend {
-          background-image: linear-gradient(-45deg, #158cd1, #6284f1);
+          background-image: linear-gradient(-45deg, #00CC99, #FF3300);
         }
       }
       &:nth-child(2n) {
         .backend {
-          background-image: linear-gradient(-45deg, #d43437, #f43e4f);
+          background-image: linear-gradient(-45deg, #1457d5, #00CC99);
         }
       }
       &:nth-child(3n) {
         .backend {
-          background-image: linear-gradient(-45deg, #3385f7, #1457d5);
+          background-image: linear-gradient(-45deg, #000CCC, #6666CC);
         }
       }
       &:nth-child(4n) {
         .backend {
-          background-image: linear-gradient(-45deg, #dd7843, #f5b740);
+          background-image: linear-gradient(-45deg, #25292e, #f43e4f);
         }
       }
       &:nth-child(5n) {
         .backend {
-          background-image: linear-gradient(-45deg, #25292e, #25292e);
+          background-image: linear-gradient(-45deg, #f43e4f, #CCCCFF);
         }
       }
       &:nth-child(6n) {
         .backend {
-          background-image: linear-gradient(-50deg, #b3281e, #f43e4f);
+          background-image: linear-gradient(-50deg, #b3281e, #3ac19f);
         }
       }
       &:nth-child(7n) {
@@ -211,7 +211,7 @@ export default {
       }
       &:nth-child(8n) {
         .backend {
-          background-image: linear-gradient(-50deg, #00a1d6, #50abe0);
+          background-image: linear-gradient(-50deg, #FFFF00, #0e2342);
         }
       }
       &:nth-child(9n) {

@@ -407,22 +407,22 @@ a:active {
     &:hover {
       &:nth-child(n) {
         .backend {
-          background-image: linear-gradient(-45deg, #50b5ef, #6284f1);
+          background-image: linear-gradient(-45deg, #33CCFF, #FFCCCC);
         }
       }
       &:nth-child(2n) {
         .backend {
-          background-image: linear-gradient(-45deg, #d43437, #f43e4f);
+          background-image: linear-gradient(-45deg, #333333, #000000);
         }
       }
       &:nth-child(3n) {
         .backend {
-          background-image: linear-gradient(-45deg, #3385f7, #1457d5);
+          background-image: linear-gradient(-45deg, #66FF33, #669999);
         }
       }
       &:nth-child(4n) {
         .backend {
-          background-image: linear-gradient(-45deg, #dd7843, #f5b740);
+          background-image: linear-gradient(-45deg, #660000, #CC0000);
         }
       }
       &:nth-child(5n) {
@@ -432,7 +432,7 @@ a:active {
       }
       &:nth-child(6n) {
         .backend {
-          background-image: linear-gradient(-50deg, #64bea1, #3ac19f);
+          background-image: linear-gradient(-50deg, #CCCCFF, #990000);
         }
       }
       

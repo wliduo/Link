@@ -320,7 +320,7 @@ a:active {
     &:hover {
       &:nth-child(n) {
         .backend {
-          background-image: linear-gradient(-45deg, #50b5ef, #6284f1);
+          background-image: linear-gradient(-45deg, #50b5ef, #000033);
         }
       }
       &:nth-child(2n) {
@@ -330,22 +330,37 @@ a:active {
       }
       &:nth-child(3n) {
         .backend {
-          background-image: linear-gradient(-45deg, #3385f7, #1457d5);
+          background-image: linear-gradient(-45deg, #6666CC, #0066FF);
         }
       }
       &:nth-child(4n) {
         .backend {
-          background-image: linear-gradient(-45deg, #dd7843, #f5b740);
+          background-image: linear-gradient(-45deg, #CC0033, #990033);
         }
       }
       &:nth-child(5n) {
         .backend {
-          background-image: linear-gradient(-50deg, #0e2342, #3e90b9);
+          background-image: linear-gradient(-50deg, #FFFFCC, #3e90b9);
         }
       }
       &:nth-child(6n) {
         .backend {
-          background-image: linear-gradient(-50deg, #64bea1, #3ac19f);
+          background-image: linear-gradient(-50deg, #CCCCFF, #990000);
+        }
+      }
+      &:nth-child(7n) {
+        .backend {
+          background-image: linear-gradient(-50deg, #000000, #FFFFFF);
+        }
+      }
+      &:nth-child(8n) {
+        .backend {
+          background-image: linear-gradient(-50deg, #666600, #66CC33);
+        }
+      }
+      &:nth-child(9n) {
+        .backend {
+          background-image: linear-gradient(-50deg, #99CC99, #99FF33);
         }
       }
       
