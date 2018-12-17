@@ -73,12 +73,12 @@
       </div>
 
       <div class="item">
-        <a href="https://char.wang64.cn/video" target="_blank">
+        <a href="https://squoosh.app" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-play fa-lg" aria-hidden="true"></i>
             <div class="content">
-              <span>Video字符</span>
+              <span>Squoosh</span>
             </div>
           </div>
           <div class="backend"></div>
