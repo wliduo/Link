@@ -11,7 +11,7 @@
     </div>
     <div class="container">
 
-      <div class="item">
+      <!-- <div class="item">
         <a href="https://wang64.cn/go?url=https://github.com/wang926454" target="_blank">
         <div class="cover">
           <div class="frontend">
@@ -65,29 +65,15 @@
           <div class="backend"></div>
         </div>
         </a>
-      </div>
+      </div> -->
 
       <div class="item">
-        <a href="https://wang64.cn/go?url=https://text.wang64.cn" target="_blank">
+        <a href="https://wang64.cn/go?url=https://mark.wang64.cn" target="_blank">
         <div class="cover">
           <div class="frontend">
-            <i class="fa fa-font fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-bookmark-o fa-lg" aria-hidden="true"></i>
             <div class="content">
-              <span>Random</span>
-            </div>
-          </div>
-          <div class="backend"></div>
-        </div>
-        </a>
-      </div>
-
-      <div class="item">
-        <a href="https://wang64.cn/go?url=https://char.wang64.cn" target="_blank">
-        <div class="cover">
-          <div class="frontend">
-            <i class="fa fa-picture-o fa-lg" aria-hidden="true"></i>
-            <div class="content">
-              <span>Picture</span>
+              <span>Mark</span>
             </div>
           </div>
           <div class="backend"></div>
@@ -111,12 +97,54 @@
       </div>
 
       <div class="item">
+        <a href="https://wang64.cn/go?url=https://wang64.cn/404" target="_blank">
+        <div class="cover">
+          <div class="frontend">
+            <i class="fa fa-link fa-lg" aria-hidden="true"></i>
+            <div class="content">
+              <span>Links</span>
+            </div>
+          </div>
+          <div class="backend"></div>
+        </div>
+        </a>
+      </div>
+
+      <div class="item">
         <a href="https://wang64.cn/go?url=https://lis.wang64.cn" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-superpowers fa-lg" aria-hidden="true"></i>
             <div class="content">
               <span>Video</span>
+            </div>
+          </div>
+          <div class="backend"></div>
+        </div>
+        </a>
+      </div>
+
+      <div class="item">
+        <a href="https://wang64.cn/go?url=https://text.wang64.cn" target="_blank">
+        <div class="cover">
+          <div class="frontend">
+            <i class="fa fa-font fa-lg" aria-hidden="true"></i>
+            <div class="content">
+              <span>Random</span>
+            </div>
+          </div>
+          <div class="backend"></div>
+        </div>
+        </a>
+      </div>
+
+      <div class="item">
+        <a href="https://wang64.cn/go?url=https://char.wang64.cn" target="_blank">
+        <div class="cover">
+          <div class="frontend">
+            <i class="fa fa-picture-o fa-lg" aria-hidden="true"></i>
+            <div class="content">
+              <span>Picture</span>
             </div>
           </div>
           <div class="backend"></div>
@@ -159,20 +187,6 @@
             <i class="fa fa-sun-o fa-lg" aria-hidden="true"></i>
             <div class="content">
               <span>Article</span>
-            </div>
-          </div>
-          <div class="backend"></div>
-        </div>
-        </a>
-      </div>
-
-      <div class="item">
-        <a href="https://wang64.cn/go?url=https://wang64.cn/404" target="_blank">
-        <div class="cover">
-          <div class="frontend">
-            <i class="fa fa-link fa-lg" aria-hidden="true"></i>
-            <div class="content">
-              <span>Links</span>
             </div>
           </div>
           <div class="backend"></div>
