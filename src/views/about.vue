@@ -17,7 +17,7 @@ export default {
       list: [
         {
           id: 'wang926454',
-          link: 'https://me.wang64.cn',
+          link: 'https://wang64.cn/go?url=https://me.wang64.cn',
           danmus: [
             '看什么看，不就是一堆弹幕啊~',
             "(●'◡'●)",

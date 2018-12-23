@@ -3,7 +3,7 @@
     <div class="container">
 
       <div class="item">
-        <a href="https://bing.ioliu.cn" target="_blank">
+        <a href="https://wang64.cn/go?url=https://bing.ioliu.cn" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-file-image-o fa-lg" aria-hidden="true"></i>
@@ -17,7 +17,7 @@
       </div>
 
       <div class="item">
-        <a href="https://api.i-meto.com" target="_blank">
+        <a href="https://wang64.cn/go?url=https://api.i-meto.com" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-eercast fa-lg" aria-hidden="true"></i>
@@ -31,7 +31,7 @@
       </div>
 
       <div class="item">
-        <a href="http://pandownload.com" target="_blank">
+        <a href="https://wang64.cn/go?url=http://pandownload.com" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-arrow-down fa-lg" aria-hidden="true"></i>
@@ -45,7 +45,7 @@
       </div>
 
       <div class="item">
-        <a href="http://www.cyxitong.com" target="_blank">
+        <a href="https://wang64.cn/go?url=http://www.cyxitong.com" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-window-maximize fa-lg" aria-hidden="true"></i>
@@ -59,7 +59,7 @@
       </div>
 
       <div class="item">
-        <a href="https://hellodigua.github.io/vue-danmaku" target="_blank">
+        <a href="https://wang64.cn/go?url=https://hellodigua.github.io/vue-danmaku" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-rebel fa-lg" aria-hidden="true"></i>
@@ -73,7 +73,7 @@
       </div>
 
       <div class="item">
-        <a href="https://squoosh.app" target="_blank">
+        <a href="https://wang64.cn/go?url=https://squoosh.app" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-play fa-lg" aria-hidden="true"></i>
@@ -87,7 +87,7 @@
       </div>
 
       <div class="item">
-        <a href="http://www.ofmonkey.com" target="_blank">
+        <a href="https://wang64.cn/go?url=http://www.ofmonkey.com" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-simplybuilt fa-lg" aria-hidden="true"></i>
