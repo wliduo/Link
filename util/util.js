@@ -22,8 +22,10 @@ export default{
     }
     return c
   },
-  // 手机端返回true，PC端返回false
+  // PC端返回false
   isMobile: function () {
-    return navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)
+    var viewType = navigator.userAgent.toLowerCase()
+    console.log(viewType)
+    return viewType.match(/(phone|pad|pod|midp|iphone|ipod|iphone os|ios|ipad|android|mobile|blackberry|iemobile|mqqbrowser|juc|rv:1.2.3.4|ucweb|fennec|wosbrowser|browserng|webos|symbian|windows ce|windows mobile|windows phone)/i)
   }
 }
