@@ -470,7 +470,37 @@ a:active {
       }
       &:nth-child(6n) {
         .backend {
-          background-image: linear-gradient(-50deg, #CCCCFF, #990000);
+          background-image: linear-gradient(-50deg, #02D3FF, #25292e);
+        }
+      }
+      &:nth-child(7n) {
+        .backend {
+          background-image: linear-gradient(-45deg, #3ac19f, #FFFF00);
+        }
+      }
+      &:nth-child(8n) {
+        .backend {
+          background-image: linear-gradient(-45deg, #f43e4f, #CCCCFF);
+        }
+      }
+      &:nth-child(9n) {
+        .backend {
+          background-image: linear-gradient(-50deg, #b3281e, #3ac19f);
+        }
+      }
+      &:nth-child(10n) {
+        .backend {
+          background-image: linear-gradient(-50deg, #64bea1, #3ac19f);
+        }
+      }
+      &:nth-child(11n) {
+        .backend {
+          background-image: linear-gradient(-50deg, #FFFF00, #0e2342);
+        }
+      }
+      &:nth-child(12n) {
+        .backend {
+          background-image: linear-gradient(-50deg, #0e2342, #3e90b9);
         }
       }
       
