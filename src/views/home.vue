@@ -2,16 +2,16 @@
   <div class="home">
     <div class="avatar">
       <a :href="titleUrl" target="_blank">
-        <img src="https://wang926454.gitee.io/reader/Image/headt.png">
+        <img src="https://dolyw.gitee.io/reader/Image/headt.png">
       </a>
     </div>
     <!-- <div class="content">
-      <a :href="titleUrl" target="_blank"><h1 @click="titleUrl = 'https://me.wang64.cn'">{{ title }}</h1></a>
+      <a :href="titleUrl" target="_blank"><h1 @click="titleUrl = 'https://me.dolyw.com'">{{ title }}</h1></a>
     </div> -->
     <div class="container">
 
       <div class="item">
-        <a href="https://wang64.cn/go?url=https://note.wang64.cn" target="_blank">
+        <a href="https://dolyw.com/go?url=https://note.dolyw.com" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-snowflake-o fa-lg" aria-hidden="true"></i>
@@ -25,7 +25,7 @@
       </div>
 
       <div class="item">
-        <!-- <a href="https://blog.wang64.cn" target="_blank">
+        <!-- <a href="https://blog.dolyw.com" target="_blank">
         <div class="cover">
           <div class="frontend">
             
@@ -36,11 +36,11 @@
           <div class="backend"></div>
         </div>
         </a> -->
-        <h1 @click="titleUrl = 'https://me.wang64.cn'">{{ title }}</h1>
+        <h1 @click="titleUrl = 'https://me.dolyw.com'">{{ title }}</h1>
       </div>
 
       <div class="item">
-        <a href="https://wang64.cn/go?url=https://blog.wang64.cn" target="_blank">
+        <a href="https://dolyw.com/go?url=https://blog.dolyw.com" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-futbol-o fa-lg" aria-hidden="true"></i>
@@ -54,7 +54,7 @@
       </div>
       
       <div class="item">
-        <a href="https://wang64.cn/go?url=https://res.wang64.cn" target="_blank">
+        <a href="https://dolyw.com/go?url=https://res.dolyw.com" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-envira fa-lg" aria-hidden="true"></i>
@@ -68,7 +68,7 @@
       </div>
 
       <div class="item">
-        <a href="https://wang64.cn/go?url=https://wang64.cn" target="_blank">
+        <a href="https://dolyw.com/go?url=https://dolyw.com" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-heartbeat fa-lg" aria-hidden="true"></i>
@@ -82,7 +82,7 @@
       </div>
 
       <div class="item">
-        <a href="https://wang64.cn/go?url=https://cv.wang64.cn" target="_blank">
+        <a href="https://dolyw.com/go?url=https://cv.dolyw.com" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-superpowers fa-lg" aria-hidden="true"></i>
@@ -96,7 +96,7 @@
       </div>
 
       <div class="item">
-        <a href="https://wang64.cn/go?url=https://one.wang64.cn" target="_blank">
+        <a href="https://dolyw.com/go?url=https://one.dolyw.com" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-anchor fa-lg" aria-hidden="true"></i>
@@ -110,7 +110,7 @@
       </div>
 
       <div class="item">
-        <a href="https://wang64.cn/go?url=https://chats.wang64.cn" target="_blank">
+        <a href="https://dolyw.com/go?url=https://chats.dolyw.com" target="_blank">
         <div class="cover">
           <div class="frontend">
             <!-- <i class="fa fa-empire fa-lg" aria-hidden="true"></i> -->
@@ -125,7 +125,7 @@
       </div>
 
       <div class="item">
-        <a href="https://wang64.cn/go?url=https://msg.wang64.cn" target="_blank">
+        <a href="https://dolyw.com/go?url=https://msg.dolyw.com" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-hourglass-o  fa-lg" aria-hidden="true"></i>
@@ -164,7 +164,7 @@ export default {
         '⊙﹏⊙'
       ],
       title: 'o(∩_∩)o',
-      titleUrl: 'https://wang64.cn/go?url=https://me.wang64.cn',
+      titleUrl: 'https://dolyw.com/go?url=https://me.dolyw.com',
       randomIndex: 0
     }
   },

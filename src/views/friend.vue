@@ -30,7 +30,7 @@ export default {
           more: '头上长着蘑菇',
           more2: '居然是一种牛',
           link: 'http://flag.moe',
-          avatar: require('https://wang926454.gitee.io/reader/Image/headt.png'),
+          avatar: require('https://dolyw.gitee.io/reader/Image/headt.png'),
           danmus: [
             '咕咕咕！',
             '有女装的潜质',
@@ -47,7 +47,7 @@ export default {
           more: '网红',
           more2: '他家有猫！',
           link: 'https://diygod.me',
-          avatar: require('https://wang926454.gitee.io/reader/Image/headt.png'),
+          avatar: require('https://dolyw.gitee.io/reader/Image/headt.png'),
           danmus: [
             '哔哩哔哩，干杯( ˊ ▽ ` )丿'
           ],
@@ -62,7 +62,7 @@ export default {
           more: '我蚊子今天',
           more2: '要把你肛的喵喵叫',
           link: 'https://qwq.moe',
-          avatar: require('https://wang926454.gitee.io/reader/Image/headt.png'),
+          avatar: require('https://dolyw.gitee.io/reader/Image/headt.png'),
           danmus: [
             '我，蚊子，打钱。'
           ],
@@ -76,7 +76,7 @@ export default {
           more: '有女朋友',
           more2: '最近快住一起了',
           link: 'https://nightcat.win',
-          avatar: require('https://wang926454.gitee.io/reader/Image/headt.png'),
+          avatar: require('https://dolyw.gitee.io/reader/Image/headt.png'),
           danmus: [
             '？',
             '是个好人',
@@ -98,7 +98,7 @@ export default {
           more: '树对我很好',
           more2: '可惜是个男的',
           link: 'https://geeku.net',
-          avatar: 'https://wang926454.gitee.io/reader/Image/headt.png',
+          avatar: 'https://dolyw.gitee.io/reader/Image/headt.png',
           danmus: [
             '周树人',
             '百年树人',
@@ -114,7 +114,7 @@ export default {
           more: 'HZFE的群主',
           more2: '博客丑',
           link: 'http://zhaoyuxiang.cn',
-          avatar: 'https://wang926454.gitee.io/reader/Image/headt.png',
+          avatar: 'https://dolyw.gitee.io/reader/Image/headt.png',
           danmus: [
             '已经被架空了',
             '便秘',
@@ -128,12 +128,12 @@ export default {
         } */
 
         {
-          id: 'wang926454',
+          id: 'dolyw',
           name: '随心',
           more: '第一第一',
           more2: '',
-          link: 'https://wang64.cn/go?url=https://wang64.cn',
-          avatar: 'https://wang926454.gitee.io/reader/Image/headt2.png',
+          link: 'https://dolyw.com/go?url=https://dolyw.com',
+          avatar: 'https://dolyw.gitee.io/reader/Image/headt2.png',
           danmus: [
             '第一个当然给自己了',
             '轻轻双击打开~',

@@ -2,17 +2,17 @@
   <div class="home">
     <!-- <div class="avatar">
       <a :href="titleUrl" target="_blank">
-        <img src="https://wang926454.gitee.io/reader/Image/headt.png">
+        <img src="https://dolyw.gitee.io/reader/Image/headt.png">
       </a>
     </div> -->
     <div class="content">
-      <!-- <a :href="titleUrl" target="_blank"><h1 @click="titleUrl = 'https://me.wang64.cn'">{{ title }}</h1></a> -->
-      <h1 @click="titleUrl = 'https://me.wang64.cn'">{{ title }}</h1>
+      <!-- <a :href="titleUrl" target="_blank"><h1 @click="titleUrl = 'https://me.dolyw.com'">{{ title }}</h1></a> -->
+      <h1 @click="titleUrl = 'https://me.dolyw.com'">{{ title }}</h1>
     </div>
     <div class="container">
 
       <!-- <div class="item">
-        <a href="https://wang64.cn/go?url=https://github.com/wang926454" target="_blank">
+        <a href="https://dolyw.com/go?url=https://github.com/dolyw" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-github fa-lg" aria-hidden="true"></i>
@@ -26,7 +26,7 @@
       </div>
 
       <div class="item">
-        <a href="https://wang64.cn/go?url=https://gitee.com/wang926454" target="_blank">
+        <a href="https://dolyw.com/go?url=https://gitee.com/dolyw" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-git fa-lg" aria-hidden="true"></i>
@@ -40,7 +40,7 @@
       </div>
 
       <div class="item">
-        <a href="https://wang64.cn/go?url=https://blog.csdn.net/wang926454" target="_blank">
+        <a href="https://dolyw.com/go?url=https://blog.csdn.net/dolyw" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-codiepie fa-lg" aria-hidden="true"></i>
@@ -54,7 +54,7 @@
       </div>
 
       <div class="item">
-        <a href="https://wang64.cn/go?url=https://weibo.com/wang926454" target="_blank">
+        <a href="https://dolyw.com/go?url=https://weibo.com/dolyw" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-weibo fa-lg" aria-hidden="true"></i>
@@ -68,7 +68,7 @@
       </div> -->
 
       <div class="item">
-        <a href="https://wang64.cn/go?url=https://mark.wang64.cn" target="_blank">
+        <a href="https://dolyw.com/go?url=https://mark.dolyw.com" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-bookmark-o fa-lg" aria-hidden="true"></i>
@@ -82,7 +82,7 @@
       </div>
 
       <div class="item">
-        <a href="https://wang64.cn/go?url=https://cmd.wang64.cn" target="_blank">
+        <a href="https://dolyw.com/go?url=https://cmd.dolyw.com" target="_blank">
         <div class="cover">
           <div class="frontend">
             <!-- <i class="fa fa-circle-o fa-lg" aria-hidden="true"></i> -->
@@ -97,7 +97,7 @@
       </div>
 
       <div class="item">
-        <a href="https://wang64.cn/go?url=https://wang64.cn/404" target="_blank">
+        <a href="https://dolyw.com/go?url=https://dolyw.com/404" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-link fa-lg" aria-hidden="true"></i>
@@ -111,7 +111,7 @@
       </div>
 
       <div class="item">
-        <a href="https://wang64.cn/go?url=https://lis.wang64.cn" target="_blank">
+        <a href="https://dolyw.com/go?url=https://lis.dolyw.com" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-superpowers fa-lg" aria-hidden="true"></i>
@@ -125,7 +125,7 @@
       </div>
 
       <div class="item">
-        <a href="https://wang64.cn/go?url=https://text.wang64.cn" target="_blank">
+        <a href="https://dolyw.com/go?url=https://text.dolyw.com" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-font fa-lg" aria-hidden="true"></i>
@@ -139,7 +139,7 @@
       </div>
 
       <div class="item">
-        <a href="https://wang64.cn/go?url=https://char.wang64.cn" target="_blank">
+        <a href="https://dolyw.com/go?url=https://char.dolyw.com" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-picture-o fa-lg" aria-hidden="true"></i>
@@ -153,7 +153,7 @@
       </div>
 
       <div class="item">
-        <a href="https://wang64.cn/go?url=https://mikutap.wang64.cn" target="_blank">
+        <a href="https://dolyw.com/go?url=https://mikutap.dolyw.com" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-cogs fa-lg" aria-hidden="true"></i>
@@ -167,7 +167,7 @@
       </div>
 
       <div class="item">
-        <a href="https://wang64.cn/go?url=https://lipstick.wang64.cn" target="_blank">
+        <a href="https://dolyw.com/go?url=https://lipstick.dolyw.com" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-diamond fa-lg" aria-hidden="true"></i>
@@ -181,7 +181,7 @@
       </div>
 
       <div class="item">
-        <a href="https://wang64.cn/go?url=https://article.wang64.cn" target="_blank">
+        <a href="https://dolyw.com/go?url=https://article.dolyw.com" target="_blank">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-sun-o fa-lg" aria-hidden="true"></i>
@@ -252,7 +252,7 @@ export default {
         'Win a few, lose a few. that is life.(有得也有失，生活就是如此)'
       ],
       title: '这个世界上没有天才，只有不努力的笨蛋',
-      titleUrl: 'https://me.wang64.cn',
+      titleUrl: 'https://me.dolyw.com',
       randomIndex: 0,
       i: 0,
       timer: 0,

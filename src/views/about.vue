@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="item" v-for="(item, index) in list" :key="index" @click="openLink(item.link)">
-      <vue-danmaku class="item-wrap" :ref="'danmaku-wang926454'" :config="config" :danmus="item.danmus"></vue-danmaku>
+      <vue-danmaku class="item-wrap" :ref="'danmaku-dolyw'" :config="config" :danmus="item.danmus"></vue-danmaku>
     </div>
   </div>
 </template>
@@ -16,8 +16,8 @@ export default {
     return {
       list: [
         {
-          id: 'wang926454',
-          link: 'https://wang64.cn/go?url=https://me.wang64.cn',
+          id: 'dolyw',
+          link: 'https://dolyw.com/go?url=https://me.dolyw.com',
           danmus: [
             '看什么看，不就是一堆弹幕啊~',
             "(●'◡'●)",
@@ -63,9 +63,9 @@ export default {
     if (this.util.isMobile()) {
       this.config.channels = ''
     }
-    this.$refs['danmaku-wang926454'][0].play()
+    this.$refs['danmaku-dolyw'][0].play()
     setTimeout(() => {
-      this.$refs['danmaku-wang926454'][0].resize()
+      this.$refs['danmaku-dolyw'][0].resize()
     }, 300)
   },
   methods: {
