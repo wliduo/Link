@@ -11,12 +11,12 @@
     <div class="container">
 
       <div class="item">
-        <a href="https://dolyw.com/go?url=https://note.dolyw.com" target="_blank">
+        <a href="https://dolyw.com/load?url=https://map.dolyw.com" target="_blank">
         <div class="cover">
           <div class="frontend">
-            <i class="fa fa-snowflake-o fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-envira fa-lg" aria-hidden="true"></i>
             <div class="content">
-              <span>Note</span>
+              <span>Map</span>
             </div>
           </div>
           <div class="backend"></div>
@@ -36,14 +36,14 @@
           <div class="backend"></div>
         </div>
         </a> -->
-        <h1 @click="titleUrl = 'https://me.dolyw.com'">{{ title }}</h1>
+        <h1 @click="titleUrl = 'https://dolyw.com/go?url=https://me.dolyw.com'">{{ title }}</h1>
       </div>
 
       <div class="item">
         <a href="https://dolyw.com/go?url=https://blog.dolyw.com" target="_blank">
         <div class="cover">
           <div class="frontend">
-            <i class="fa fa-futbol-o fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-superpowers fa-lg" aria-hidden="true"></i>
             <div class="content">
               <span>Blog</span>
             </div>
@@ -54,12 +54,12 @@
       </div>
       
       <div class="item">
-        <a href="https://dolyw.com/go?url=https://res.dolyw.com" target="_blank">
+        <a href="https://dolyw.com/go?url=https://mark.dolyw.com" target="_blank">
         <div class="cover">
           <div class="frontend">
-            <i class="fa fa-envira fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-snowflake-o fa-lg" aria-hidden="true"></i>
             <div class="content">
-              <span>Music</span>
+              <span>Mark</span>
             </div>
           </div>
           <div class="backend"></div>
@@ -68,7 +68,7 @@
       </div>
 
       <div class="item">
-        <a href="https://dolyw.com/go?url=https://dolyw.com" target="_blank">
+        <a href="https://dolyw.com/go?url=https://dolyw.com">
         <div class="cover">
           <div class="frontend">
             <i class="fa fa-heartbeat fa-lg" aria-hidden="true"></i>
@@ -85,7 +85,7 @@
         <a href="https://dolyw.com/go?url=https://cv.dolyw.com" target="_blank">
         <div class="cover">
           <div class="frontend">
-            <i class="fa fa-superpowers fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-futbol-o fa-lg" aria-hidden="true"></i>
             <div class="content">
               <span>MyCv</span>
             </div>
@@ -110,13 +110,13 @@
       </div>
 
       <div class="item">
-        <a href="https://dolyw.com/go?url=https://chats.dolyw.com" target="_blank">
+        <a href="https://dolyw.com/go?url=https://friend.dolyw.com" target="_blank">
         <div class="cover">
           <div class="frontend">
             <!-- <i class="fa fa-empire fa-lg" aria-hidden="true"></i> -->
             <i class="fa fa-weixin fa-lg" aria-hidden="true"></i>
             <div class="content">
-              <span>MyChat</span>
+              <span>Friend</span>
             </div>
           </div>
           <div class="backend"></div>

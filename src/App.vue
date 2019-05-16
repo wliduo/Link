@@ -39,7 +39,7 @@ export default {
       active: 'home',
       inPage: 'home',
       outPage: '',
-      navigation: ['home', 'links', 'friend', 'chain', 'about']
+      navigation: ['home', 'links', /* 'friend', 'chain', */ 'about']
     }
   },
   created () { },
