@@ -275,9 +275,10 @@ export default {
       // t.title = t.text[Math.floor(t.text.length * Math.random())]
     }, 10000) */
     // 一开始默认给一个随机语句
-    t.randomIndex = Math.floor(t.text.length * Math.random())
+    /* t.randomIndex = Math.floor(t.text.length * Math.random())
     t.randomText()
-    t.typing()
+    t.typing() */
+    t.getHitokoto()
   },
   methods: {
     randomText () {
@@ -323,6 +324,52 @@ export default {
         // 删除完成重置
         this.randomText()
         this.typing()
+      }
+    },
+    getHitokoto () {
+      this.axios.get('https://api.fczbl.vip/hitokoto/?encode=json').then(response => {
+        // console.log(response.data.hitokoto)
+        // 重置索引i和文字
+        this.i = 0
+        this.str = response.data.hitokoto
+        this.typingNet()
+      }).catch(error => {
+        console.log(error)
+        this.randomIndex = Math.floor(this.text.length * Math.random())
+        this.randomText()
+        this.typing()
+      })
+    },
+    typingNet () {
+      // 打字
+      if (this.i <= this.str.length) {
+        if (this.i === this.str.length) {
+          this.title = this.str.slice(0, this.i++)
+        } else {
+          this.title = this.str.slice(0, this.i++) + '_'
+        }
+        this.timer = setTimeout(() => {
+          this.typingNet()
+        }, 150)
+      } else {
+        clearTimeout(this.timer)
+        // 停顿1.5秒开始删除文字
+        setTimeout(() => {
+          this.clearTitleNet()
+        }, 1500)
+      }
+    },
+    clearTitleNet () {
+      // 删除文字
+      if (this.i >= 0) {
+        this.title = this.str.slice(0, this.i--) + '_'
+        this.timer = setTimeout(() => {
+          this.clearTitleNet()
+        }, 50)
+      } else {
+        clearTimeout(this.timer)
+        // 删除完成重置
+        this.getHitokoto()
       }
     }
   }
